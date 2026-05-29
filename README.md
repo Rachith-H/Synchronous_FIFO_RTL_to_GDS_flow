@@ -1,5 +1,24 @@
 # RTL to GDS Implementation of Synchronous FIFO (First In First Out) with Opensource Tools
 ---
+# Table of Contents
+
+- [Overview](#overview)
+- [Tools Used](#tools-used)
+- [Design Specification](#design-specification)
+- [RTL Simulation](#rtl-simulation)
+- [Code Coverage Analysis](#code-coverage-analysis)
+- [Physical Design](#physical-design-flow)
+     - [Synthesis](#synthesis)
+     - [Floorplan](#floorplan)
+     - [Placement](#placement)
+     - [Clock Tree Synthesis](#clock-tree-synthesis)
+     - [Routing](#routing)
+     - [Layout Visualization](#layout-visualization)
+     - [Signoff](#signoff)
+- [Final Reports](#final-reports)
+- [Conclusion](#conclusion)
+
+---
 # Overview
 
 This project demonstrates the complete RTL-to-GDSII implementation flow of a parameterized synchronous FIFO using open-source ASIC design tools and the Sky130 PDK.
