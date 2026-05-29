@@ -228,6 +228,7 @@ Visualization in Magic:
 Visualization in Klayout:
 
 ![kl](Images/gds_kl.png)
+![kl](Images/gds_mg.png)
 
 Visualization in GDS3D:
 
@@ -302,12 +303,12 @@ The final reports indicate that the design completed the RTL-to-GDS flow success
 | | Off-Grid Violations | 0 |
 | **GDS Check** | KLayout GDS XOR Violations | 0 |
 
-Detailed implementation metrics are available in the [metrics.csv](Results/metrics.csv) file.
+Detailed implementation metrics are available in the [metrics.csv](Reports/metrics.csv) file.
 
 ---
 # Conclusion
 
-Final GDS: [GDSII](Results/syn_fifo.gds)
+Final GDS: [GDSII](Results/Final/syn_fifo.gds)
 
 This project successfully demonstrates the complete RTL-to-GDSII implementation flow of a parameterized synchronous FIFO using open-source ASIC design tools and the Sky130 PDK.
 
