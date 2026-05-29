@@ -69,8 +69,8 @@ The design implements a parameterized synchronous FIFO (First-In First-Out) memo
 | `empty` | Output | 1 | FIFO empty flag |
 | `almost_full` | Output | 1 | Asserts when unused slots ≤ threshold |
 | `almost_empty` | Output | 1 | Asserts when used slots ≤ threshold |
-| `used` | Output | depth_pow | Number of occupied locations |
-| `unused` | Output | depth_pow | Number of free locations |
+| `used` | Output | depth_pow+1 | Number of occupied locations |
+| `unused` | Output | depth_pow+1 | Number of free locations |
 | `overrun` | Output | 1 | Sticky flag — write attempted when full |
 | `underrun` | Output | 1 | Sticky flag — read attempted when empty |
 
