@@ -85,7 +85,7 @@ The design implements a parameterized synchronous FIFO (First-In First-Out) memo
 ---
 # RTL Simulation
 
-RTL simulation was performed to verify the functional correctness of the [FIFO Design](Design%20Files/syn_FIFO.v) with a [Testbench](Design%20Files/syn_FIFO_tb.v) involving different operating conditions using **Icarus Verilog** and **GTKWave**.
+RTL simulation was performed to verify the functional correctness of the [FIFO Design](Design%20Files/syn_fifo.v) with a [Testbench](Design%20Files/syn_fifo_tb.v) involving different operating conditions using **Icarus Verilog** and **GTKWave**.
 
 The testbench was developed to validate:
 
