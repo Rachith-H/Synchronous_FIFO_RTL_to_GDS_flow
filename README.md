@@ -169,7 +169,7 @@ make mount
 In this step, the RTL code is translated into a gate-level netlist using the standard cells from the Sky130 PDK.
 The synthesis process optimizes the design for area, timing, and power, preparing it for the subsequent physical design steps.
 
-The tool performs RTL synthesis using OpenLane’s integrated Yosys tool. It maps the Verilog design to Sky130 standard cells, generates the [gate-level netlist](Results/syn_fifo_net.v), and produces reports for timing and area analysis.
+The tool performs RTL synthesis using OpenLane’s integrated Yosys tool. It maps the Verilog design to Sky130 standard cells, generates the [gate-level netlist](Results/Synthesis/syn_fifo_net.v), and produces reports for timing and area analysis.
 The Gate Level Schematic of the design obtained through Yosys after synthesis with SKY130 is as follows:
 
 ![schematic](Images/sch.png)
