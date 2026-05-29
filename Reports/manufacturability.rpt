@@ -1,0 +1,19 @@
+Design Name: syn_fifo
+Run Directory: /openlane/designs/syn_fifo/runs/RUN_2026.05.28_12.22.34
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/syn_fifo/runs/RUN_2026.05.28_12.22.34/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/syn_fifo/runs/RUN_2026.05.28_12.22.34/logs/signoff/39-syn_fifo.lef.lvs.log
+Number of nets: 517                        |Number of nets: 517                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/syn_fifo/runs/RUN_2026.05.28_12.22.34/logs/signoff/41-arc.log
+Pin violations: 0
+Net violations: 0
